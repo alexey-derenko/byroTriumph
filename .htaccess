@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.byurotriumf.com.ua$ [NC]
+RewriteRule ^(.*)$ http://byurotriumf.com.ua/$1 [R=301,L]
